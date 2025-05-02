@@ -14,7 +14,8 @@ login::~login()
     delete ui;
 }
 
-void login::on_pushButton_3_clicked()
+
+void login::on_back_clicked()
 {
     this->hide();
     MainWindow *mainwindow = new MainWindow();

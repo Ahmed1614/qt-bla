@@ -38,7 +38,7 @@ border-color: rgb(0, 0, 0);
      <string>Welcome to the Pro League</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="Signup">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -56,7 +56,7 @@ background-color: rgb(251, 167, 45);</string>
      <string>Sign up</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="Exit">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -74,7 +74,7 @@ background-color: rgb(251, 167, 45);</string>
      <string>Exit</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="Login">
     <property name="geometry">
      <rect>
       <x>300</x>
