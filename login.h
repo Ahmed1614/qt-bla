@@ -26,6 +26,10 @@ private slots:
 
     void on_pushButton_4_clicked();
 
+    void on_back_clicked();
+
+    void on_Login_clicked();
+
 private:
     Ui::login *ui;
 };

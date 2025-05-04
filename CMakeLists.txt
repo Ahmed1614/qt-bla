@@ -28,6 +28,19 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         settings.h settings.cpp settings.ui
         teams.h teams.cpp teams.ui
         player.h player.cpp player.ui
+        userpage.h userpage.cpp userpage.ui
+        userpage.h userpage.cpp userpage.ui
+        adminpage.h adminpage.cpp adminpage.ui
+        matches.h matches.cpp matches.ui
+        teamstats.h teamstats.cpp teamstats.ui
+
+        authentication.h
+        authentication.h
+        authentication.h
+        authentication.h
+        authentication.cpp
+        matchstats.h matchstats.cpp matchstats.ui
+
 
 
     )

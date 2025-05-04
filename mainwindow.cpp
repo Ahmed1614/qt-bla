@@ -7,11 +7,17 @@
 #include "settings.h"
 #include "teams.h"
 #include "player.h"
+#include "userpage.h"
+#include "adminpage.h"
+#include "matches.h"
+#include "teamstats.h"
+#include "authentication.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
    , ui(new Ui::MainWindow)
 {
+    load_user_db();
     ui->setupUi(this);
     connect(ui->pushButton, SIGNAL(clicked()), this,SLOT(signup_clicked()));
     connect(ui->pushButton_2, SIGNAL(clicked()), this,SLOT(exit_clicked()));
@@ -24,10 +30,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-// void MainWindow::login_bn()
-// {
-
-// }
 void MainWindow::signup_clicked()
 {
     this->hide();
@@ -44,6 +46,7 @@ void MainWindow::login_clicked()
 
 void MainWindow::exit_clicked()
 {
+    save();
     this->close();
 }
 
@@ -73,14 +76,34 @@ void MainWindow::on_pushButton_6_clicked()
 }
 
 
+void MainWindow::on_userbutton_clicked()
+{
+    this->hide();
+    userpage *user = new userpage(this);
+    user->show();
+}
 
 
+void MainWindow::on_userbutton_2_clicked()
+{
+    this->hide();
+    adminpage *admin = new adminpage(this);
+    admin->show();
+}
 
 
+void MainWindow::on_pushButton_7_clicked()
+{
+    this->hide();
+    matches *match = new matches(this);
+    match->show();
+}
 
 
-
-
-
-
+void MainWindow::on_pushButton_8_clicked()
+{
+    this->hide();
+    TeamStats *league = new TeamStats(this);
+    league->show();
+}
 

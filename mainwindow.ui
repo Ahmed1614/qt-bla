@@ -41,8 +41,8 @@ border-color: rgb(0, 0, 0);
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>170</y>
+      <x>280</x>
+      <y>90</y>
       <width>221</width>
       <height>81</height>
      </rect>
@@ -77,8 +77,8 @@ background-color: rgb(251, 167, 45);</string>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>300</y>
+      <x>280</x>
+      <y>180</y>
       <width>221</width>
       <height>81</height>
      </rect>
@@ -113,8 +113,8 @@ background-color: rgb(251, 167, 45);</string>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>250</y>
+      <x>540</x>
+      <y>90</y>
       <width>221</width>
       <height>81</height>
      </rect>
@@ -131,8 +131,8 @@ background-color: rgb(251, 167, 45);</string>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>360</y>
+      <x>540</x>
+      <y>180</y>
       <width>221</width>
       <height>81</height>
      </rect>
@@ -144,6 +144,78 @@ background-color: rgb(251, 167, 45);</string>
     </property>
     <property name="text">
      <string>player</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="userbutton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Showcard Gothic&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(251, 167, 45);</string>
+    </property>
+    <property name="text">
+     <string>user page</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="userbutton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Showcard Gothic&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(251, 167, 45);</string>
+    </property>
+    <property name="text">
+     <string>admin page</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>290</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Showcard Gothic&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(251, 167, 45);</string>
+    </property>
+    <property name="text">
+     <string>user matches</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>280</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Showcard Gothic&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(251, 167, 45);</string>
+    </property>
+    <property name="text">
+     <string>league </string>
     </property>
    </widget>
   </widget>

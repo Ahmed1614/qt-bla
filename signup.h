@@ -18,6 +18,10 @@ public:
 private slots:
     void on_pushButton_3_clicked();
 
+    void on_back_clicked();
+
+    void on_sign_up_clicked();
+
 private:
     Ui::Dialog *ui;
 };
